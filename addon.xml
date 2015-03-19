@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.pydisplaypower" name="Pi display power" version="2.0.11" provider-name="asavah">
+  <requires>
+    <import addon="xbmc.python" version="2.19.0"/>
+  </requires>
+  <extension point="xbmc.ui.screensaver" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Screensaver for raspberry pi that turns display power off</summary>
+    <description lang="en">Screensaver for raspberry pi that turns display power off by using vcgencmd display_power command</description>
+    <language></language>
+    <platform>linux</platform>      
+    <license>GNU GENERAL PUBLIC LICENSE Version 2</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source>https://github.com/asavah/script.pidisplaypower</source>
+  </extension>
+</addon>
