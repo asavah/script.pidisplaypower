@@ -1,6 +1,0 @@
-v2.0.12
-- Match version in changelog.
-
-v1.0
-- Initial version.
-
