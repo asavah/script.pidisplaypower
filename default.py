@@ -19,3 +19,4 @@ if __name__ == '__main__':
     screensaver_gui = gui.Screensaver('dummy.xml', __cwd__, 'default')
     screensaver_gui.doModal()
     del screensaver_gui
+    __addon__ = __addonid__ = __cwd__ = __language__ = __resource__ = None
